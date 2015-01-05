@@ -1,6 +1,6 @@
 FROM jboss/base-jdk:8
 
-ENV LIVEOAK_VERSION 1.0.0.Beta01
+ENV LIVEOAK_VERSION 1.0.0.Beta02
 ENV JAVA_HOME /usr/lib/jvm/java-1.8.0
 
 RUN curl -L http://repository.liveoak.io/io/liveoak/liveoak-dist/$LIVEOAK_VERSION/liveoak-dist-$LIVEOAK_VERSION.tar.gz | tar zx
